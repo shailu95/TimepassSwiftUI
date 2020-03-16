@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A7465C241CC7340064867A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7465B241CC7340064867A /* AppDelegate.swift */; };
+		04A7465E241CC7340064867A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7465D241CC7340064867A /* SceneDelegate.swift */; };
+		04A74660241CC7340064867A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7465F241CC7340064867A /* ContentView.swift */; };
+		04A74662241CC7380064867A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A74661241CC7380064867A /* Assets.xcassets */; };
+		04A74665241CC7380064867A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A74664241CC7380064867A /* Preview Assets.xcassets */; };
+		04A74668241CC7380064867A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A74666241CC7380064867A /* LaunchScreen.storyboard */; };
+		04A74674241CD0390064867A /* SwiftUIKeyboardHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A74670241CD0390064867A /* SwiftUIKeyboardHost.swift */; };
+		04A74675241CD0390064867A /* UIResponder++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A74671241CD0390064867A /* UIResponder++.swift */; };
+		04A74676241CD0390064867A /* SwifUIDismissKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A74672241CD0390064867A /* SwifUIDismissKeyboard.swift */; };
+		04A74677241CD0390064867A /* UIView++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A74673241CD0390064867A /* UIView++.swift */; };
+		04A7467C241CD2930064867A /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7467B241CD2930064867A /* TextView.swift */; };
+		04A7467E241CE3B60064867A /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7467D241CE3B60064867A /* FeedbackView.swift */; };
+		04A74680241CEB6A0064867A /* DashBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7467F241CEB6A0064867A /* DashBoardView.swift */; };
+		04A74682241CFA730064867A /* PDFKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A74681241CFA730064867A /* PDFKitView.swift */; };
+		04A74685241D316B0064867A /* BillDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A74684241D316B0064867A /* BillDetailView.swift */; };
+		04A74688241F4FF10064867A /* DatePView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A74687241F4FF10064867A /* DatePView.swift */; };
+		04A7468A241F50000064867A /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A74689241F50000064867A /* GridView.swift */; };
+		04A7468D241F50090064867A /* DateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7468C241F50090064867A /* DateModel.swift */; };
+		04A74690241F500F0064867A /* DateModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7468F241F500F0064867A /* DateModelController.swift */; };
+		04A74694241F7F0D0064867A /* AttendanceModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A74693241F7F0D0064867A /* AttendanceModal.swift */; };
+		04A74696241F8CFE0064867A /* MultiSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A74695241F8CFE0064867A /* MultiSelectView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04A74658241CC7340064867A /* PerkCM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerkCM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A7465B241CC7340064867A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04A7465D241CC7340064867A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04A7465F241CC7340064867A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04A74661241CC7380064867A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04A74664241CC7380064867A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04A74667241CC7380064867A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04A74669241CC7380064867A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A74670241CD0390064867A /* SwiftUIKeyboardHost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIKeyboardHost.swift; sourceTree = "<group>"; };
+		04A74671241CD0390064867A /* UIResponder++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIResponder++.swift"; sourceTree = "<group>"; };
+		04A74672241CD0390064867A /* SwifUIDismissKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifUIDismissKeyboard.swift; sourceTree = "<group>"; };
+		04A74673241CD0390064867A /* UIView++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView++.swift"; sourceTree = "<group>"; };
+		04A7467B241CD2930064867A /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		04A7467D241CE3B60064867A /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
+		04A7467F241CEB6A0064867A /* DashBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardView.swift; sourceTree = "<group>"; };
+		04A74681241CFA730064867A /* PDFKitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFKitView.swift; sourceTree = "<group>"; };
+		04A74684241D316B0064867A /* BillDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillDetailView.swift; sourceTree = "<group>"; };
+		04A74687241F4FF10064867A /* DatePView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePView.swift; sourceTree = "<group>"; };
+		04A74689241F50000064867A /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		04A7468C241F50090064867A /* DateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateModel.swift; sourceTree = "<group>"; };
+		04A7468F241F500F0064867A /* DateModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateModelController.swift; sourceTree = "<group>"; };
+		04A74693241F7F0D0064867A /* AttendanceModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceModal.swift; sourceTree = "<group>"; };
+		04A74695241F8CFE0064867A /* MultiSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSelectView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A74655241CC7340064867A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A7464F241CC7340064867A = {
+			isa = PBXGroup;
+			children = (
+				04A7465A241CC7340064867A /* PerkCM */,
+				04A74659241CC7340064867A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04A74659241CC7340064867A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A74658241CC7340064867A /* PerkCM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A7465A241CC7340064867A /* PerkCM */ = {
+			isa = PBXGroup;
+			children = (
+				04A74686241F4FD50064867A /* Date PIcker */,
+				04A74683241D31540064867A /* BillDetail */,
+				04A74678241CD1210064867A /* TextView */,
+				04A7466F241CCFFB0064867A /* SwiftUIKeyboardHost */,
+				04A7465B241CC7340064867A /* AppDelegate.swift */,
+				04A7465D241CC7340064867A /* SceneDelegate.swift */,
+				04A7465F241CC7340064867A /* ContentView.swift */,
+				04A74661241CC7380064867A /* Assets.xcassets */,
+				04A74666241CC7380064867A /* LaunchScreen.storyboard */,
+				04A74669241CC7380064867A /* Info.plist */,
+				04A74663241CC7380064867A /* Preview Content */,
+				04A7467D241CE3B60064867A /* FeedbackView.swift */,
+				04A7467F241CEB6A0064867A /* DashBoardView.swift */,
+			);
+			path = PerkCM;
+			sourceTree = "<group>";
+		};
+		04A74663241CC7380064867A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04A74664241CC7380064867A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04A7466F241CCFFB0064867A /* SwiftUIKeyboardHost */ = {
+			isa = PBXGroup;
+			children = (
+				04A74670241CD0390064867A /* SwiftUIKeyboardHost.swift */,
+				04A74672241CD0390064867A /* SwifUIDismissKeyboard.swift */,
+				04A74671241CD0390064867A /* UIResponder++.swift */,
+				04A74673241CD0390064867A /* UIView++.swift */,
+			);
+			path = SwiftUIKeyboardHost;
+			sourceTree = "<group>";
+		};
+		04A74678241CD1210064867A /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+				04A7467B241CD2930064867A /* TextView.swift */,
+				04A74681241CFA730064867A /* PDFKitView.swift */,
+			);
+			path = TextView;
+			sourceTree = "<group>";
+		};
+		04A74683241D31540064867A /* BillDetail */ = {
+			isa = PBXGroup;
+			children = (
+				04A74684241D316B0064867A /* BillDetailView.swift */,
+			);
+			path = BillDetail;
+			sourceTree = "<group>";
+		};
+		04A74686241F4FD50064867A /* Date PIcker */ = {
+			isa = PBXGroup;
+			children = (
+				04A7468B241F50090064867A /* Model */,
+				04A74687241F4FF10064867A /* DatePView.swift */,
+				04A74689241F50000064867A /* GridView.swift */,
+				04A7468E241F500F0064867A /* Model Controller */,
+				04A74695241F8CFE0064867A /* MultiSelectView.swift */,
+			);
+			path = "Date PIcker";
+			sourceTree = "<group>";
+		};
+		04A7468B241F50090064867A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04A74691241F7EE20064867A /* DataModel */,
+				04A7468C241F50090064867A /* DateModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04A7468E241F500F0064867A /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04A7468F241F500F0064867A /* DateModelController.swift */,
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		04A74691241F7EE20064867A /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				04A74693241F7F0D0064867A /* AttendanceModal.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A74657241CC7340064867A /* PerkCM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A7466C241CC7380064867A /* Build configuration list for PBXNativeTarget "PerkCM" */;
+			buildPhases = (
+				04A74654241CC7340064867A /* Sources */,
+				04A74655241CC7340064867A /* Frameworks */,
+				04A74656241CC7340064867A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerkCM;
+			productName = PerkCM;
+			productReference = 04A74658241CC7340064867A /* PerkCM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A74650241CC7340064867A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Shailendra vishwakarma";
+				TargetAttributes = {
+					04A74657241CC7340064867A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 04A74653241CC7340064867A /* Build configuration list for PBXProject "PerkCM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04A7464F241CC7340064867A;
+			productRefGroup = 04A74659241CC7340064867A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A74657241CC7340064867A /* PerkCM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A74656241CC7340064867A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A74668241CC7380064867A /* LaunchScreen.storyboard in Resources */,
+				04A74665241CC7380064867A /* Preview Assets.xcassets in Resources */,
+				04A74662241CC7380064867A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A74654241CC7340064867A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A74688241F4FF10064867A /* DatePView.swift in Sources */,
+				04A74677241CD0390064867A /* UIView++.swift in Sources */,
+				04A74680241CEB6A0064867A /* DashBoardView.swift in Sources */,
+				04A74682241CFA730064867A /* PDFKitView.swift in Sources */,
+				04A7467C241CD2930064867A /* TextView.swift in Sources */,
+				04A74694241F7F0D0064867A /* AttendanceModal.swift in Sources */,
+				04A7468D241F50090064867A /* DateModel.swift in Sources */,
+				04A74685241D316B0064867A /* BillDetailView.swift in Sources */,
+				04A74690241F500F0064867A /* DateModelController.swift in Sources */,
+				04A7467E241CE3B60064867A /* FeedbackView.swift in Sources */,
+				04A74696241F8CFE0064867A /* MultiSelectView.swift in Sources */,
+				04A7465C241CC7340064867A /* AppDelegate.swift in Sources */,
+				04A7465E241CC7340064867A /* SceneDelegate.swift in Sources */,
+				04A74676241CD0390064867A /* SwifUIDismissKeyboard.swift in Sources */,
+				04A7468A241F50000064867A /* GridView.swift in Sources */,
+				04A74674241CD0390064867A /* SwiftUIKeyboardHost.swift in Sources */,
+				04A74675241CD0390064867A /* UIResponder++.swift in Sources */,
+				04A74660241CC7340064867A /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04A74666241CC7380064867A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A74667241CC7380064867A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04A7466A241CC7380064867A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04A7466B241CC7380064867A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04A7466D241CC7380064867A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PerkCM/Preview Content\"";
+				DEVELOPMENT_TEAM = K9BZG9NU6G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PerkCM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Shail.PerkCM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04A7466E241CC7380064867A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PerkCM/Preview Content\"";
+				DEVELOPMENT_TEAM = K9BZG9NU6G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PerkCM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Shail.PerkCM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A74653241CC7340064867A /* Build configuration list for PBXProject "PerkCM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A7466A241CC7380064867A /* Debug */,
+				04A7466B241CC7380064867A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A7466C241CC7380064867A /* Build configuration list for PBXNativeTarget "PerkCM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A7466D241CC7380064867A /* Debug */,
+				04A7466E241CC7380064867A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04A74650241CC7340064867A /* Project object */;
+}
