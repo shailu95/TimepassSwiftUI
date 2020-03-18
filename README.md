@@ -1,2 +1,2 @@
 # SwiftUI
- SwiftUI Sample PRoject
+ SwiftUI Sample PRoject... Just trying to learn
