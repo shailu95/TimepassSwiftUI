@@ -1,2 +1,2 @@
-# TimepassSwiftUI
-Timepass SwiftUI Sample PRoject
+# SwiftUI
+ SwiftUI Sample PRoject
